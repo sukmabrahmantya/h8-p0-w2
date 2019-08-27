@@ -1,0 +1,95 @@
+1. Newton Second Law
+    A. Algoritma
+        Diketahui : 
+            Massa benda : 600 kg.
+            Percepatan benda : 2 m/s.
+
+        Ditanya :
+            Resultan Gaya  ?
+
+        Jawab :
+            1. Tentukan Massa benda.
+            2. Tentukan Percepatan benda.
+            3. Hitung Resultan gaya dengan rumus massa benda dikalikan percepatan benda.
+            4. Tampilkan Resultan gaya.
+
+    B. Pseudocode
+        START
+            STORE `massa`  WITH 600
+            STORE `percepatan` WITH 2
+            STORE `resultan` WITH CALCULATE massa * percepatan
+            DISPLAY `resultan`
+        END
+
+
+2. Tahun Kabisat
+    A. Algoritma
+        Diketahui :
+            Jika tahun habis dibagi 4, dan tidak habis dibagi 100, atau.
+            Jika tahun habis dibagi 4, habis dibagi 100, dan habis dibagi 400.
+
+        Ditanya :
+            Tahun Kabisat
+
+        Jawab :
+            1. Tentukan tahun yang akan diuji.
+            2. Uji jenis tahun dengan menggunakan rumus jumlah hari habis dibagi 4 dan tidak habis dibagi 100.
+            3. atau Uji jenis tahun dengan menggunakan rumus jumlah hari habis dibagi 4, habis dibagi 100, dan habis dibagi 400.
+            4. Tampilkan jenis tahun.
+
+    B. Pseudocode
+        START
+            STORE `tahun` WITH ANY VALUE
+            IF `tahun` MOD 4 EQUAL 0 AND `tahun` MOD 100 NOT EQUAL 0 OR
+            IF `tahun` MOD 4 EQUAL 0 AND `tahun` MOD 100 EQUAL 0 AND `tahun` MOD 400 EQUAL 0
+            DISPLAY `tahun`
+        END
+
+
+3. Laundry Day
+    A. Algoritma
+        Diketahui :
+            Pakaian yang dicuci 20 dan dimasukkan kedalam mesin cuci.
+            Mesin cuci akan dinyalakan  jika semua pakaian sudah dimasukkan kedalam mesin cuci.
+        
+        Jawab :
+            1. Masukkan pakaian satu persatu kedalam mesin cuci.
+            2. Nyalakan mesin cuci jika semua pakaian sudah dimasukan.
+
+    B. Pseudocode
+        START
+            STORE `pakaian` to 0
+            WHILE `pakaian` <= 20                
+                IF `pakaian` EQUALS 20 THEN
+                    DISPLAY "putar mesin"
+                ELSE
+                    DISPLAY "tambah baju"
+                END IF
+                ADD `pakaian` BY 1  
+        END
+
+
+4. Periksa Kuku
+    A. Algoritma
+        Diketahui :
+            Guru akan memeriksa kuku 40 muridnya dengan cara berkeliling.
+            Jika guru menemukan murid yang berkuku panjang, maka guru akan menghukumnya.
+            Jika guru menemukan murid yang tidak berkuku panjang, maka guru akan memujinya.
+
+        Jawab :
+            1. Guru memeriksa kuku Muridnya satu persatu. (looping)
+            3. Jika murid berkuku panjang maka diberi hukuman. (kondisi)
+            4. Jika murid berkuku pendek maka akan diberi pujian. (kondisi)
+
+    B. Pseudocode
+        START
+            STORE `murid` to 0
+            STORE `kukuPanjang` with any boolean value;
+            WHILE `murid` <= 40
+                IF "kuku panjang" EQUAL true
+                    DISPLAY "kena hukum"
+                ELSE
+                    DISPLAY "diberi pujian"
+                END IF
+                ADD `murid` BY 1  
+        END
