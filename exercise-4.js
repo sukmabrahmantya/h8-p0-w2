@@ -40,5 +40,5 @@ switch (bulan) {
         console.log(hari + ' Desember ' + tahun)
     break
     default :
-        console.log('Bulan tidak termasuk')
+        console.log('Masukkan bulan dengan antara 1 - 12')
 }
