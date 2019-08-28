@@ -1,11 +1,4 @@
 function xo(str) {
-
-    // menentukan jumlah o
-    // menuntukan jumlah x
-    // membandingkan jumlah panjang karakter o dan x
-    // jika sama maka true
-    // jika beda maka false
-
     var hurufX = 0
     var hurufO = 0
 
@@ -22,11 +15,6 @@ function xo(str) {
     } else {
         return false
     }
-
-    // console.log(hurufX, hurufO)
-
-
-    // if (hurufO == huruf)
 
 }
   
