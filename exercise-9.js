@@ -4,7 +4,7 @@ function shoutOut() {
     return tugas1
 }
 
-console.log('Nomor 1');
+console.log('Tugas Nomor 1');
 console.log(shoutOut());
 console.log('');
 
@@ -18,7 +18,7 @@ var num1 = 5;
 var num2 = 2;
 
 var hasilPerkalian = calculateMultiply(num1,num2);
-console.log('Nomor 2');
+console.log('Tugas Nomor 2');
 console.log(hasilPerkalian);
 console.log('');
 
@@ -35,7 +35,7 @@ var address = "Jln. Malioboro, Yogjakarta";
 var hobby = "gaming";
 
 var fullSentence = processSentence(name,age,address,hobby);
-console.log('Nomor 3');
+console.log('Tugas Nomor 3');
 console.log(fullSentence);
 
 
