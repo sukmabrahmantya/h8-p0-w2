@@ -43,7 +43,7 @@ for (var i = 1; i <= 100; i++){
 
 console.log('')
 console.log('KELIPATAN 3')
-for (var k = 1; k <= 100; k++){
+for (var k = 1; k <= 100; k+=2){
     if ( k % 3 == 0) {
         console.log(k + ' Kelipatan 3')
     }
@@ -51,7 +51,7 @@ for (var k = 1; k <= 100; k++){
 
 console.log('')
 console.log('KELIPATAN 5')
-for (var l = 1; l <= 100; l++){
+for (var l = 1; l <= 100; l+=5){
     if ( l % 5 == 0) {
         console.log(l + ' Kelipatan 5')
     }
@@ -59,7 +59,7 @@ for (var l = 1; l <= 100; l++){
 
 console.log('')
 console.log('KELIPATAN 10')
-for (var m = 1; m <= 100; m++){
+for (var m = 1; m <= 100; m+=9){
     if ( m % 10 == 0) {
         console.log(m + ' Kelipatan 10')
     }
