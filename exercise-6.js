@@ -50,10 +50,10 @@ for (var k = 1; k <= 100; k+=2){
 }
 
 console.log('')
-console.log('KELIPATAN 5')
+console.log('KELIPATAN 6')
 for (var l = 1; l <= 100; l+=5){
-    if ( l % 5 == 0) {
-        console.log(l + ' Kelipatan 5')
+    if ( l % 6 == 0) {
+        console.log(l + ' Kelipatan 6')
     }
 }
 
